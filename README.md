@@ -25,6 +25,13 @@ We use CSS (Cascading Style Sheets) for styling.
 
 Read more on [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics).
 
+We can write styles inline, directly on the element, but these are very difficult to overwrite with other styles - it general they are to be avoided.
+
+We can add a `<style>` element directly in the `<head>` but this will quickly get out of hand as our CSS and HTML grow.
+
+The 3rd option is to use an external stylesheet. This means we will create a file with the `.css` extension and add our rules in there. We will also need to link it with the HTML file. We do this by including a `<link>` pointing to the CSS file like this: `<link rel="stylesheet" href="styles.css">`. This is the approach we will be taking in our future projects.
+
+
 ## Editor
 
 The editor is where we are going to spend most of our time.
