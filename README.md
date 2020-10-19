@@ -6,6 +6,25 @@
 
 > -**Wikipedia**
 
+HTML has a tree like structure. The `<html>` element is the root of the document.
+What we see in the browser is what we place inside the `<body>` element.
+
+![](images/grumpy-cat-small.png)
+
+Read more on [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
+
+HTML is very forgiving - you can write with mistakes and the browser will try to render it by autofixing it. Use the dev tools to identify what is going wrong.
+
+It is important to us as developers that we indent the HTML file so that the file can be easly read and use editor features like collapsing a set of elements, but also so we can debug our code easily.
+
+## Styles
+
+We use CSS (Cascading Style Sheets) for styling.
+
+![](images/css-declaration-small.png)
+
+Read more on [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics).
+
 ## Editor
 
 The editor is where we are going to spend most of our time.
